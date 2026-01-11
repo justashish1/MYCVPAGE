@@ -2,100 +2,58 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Ashish Malviya – Software Engineer</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashish Malviya | Digital Transformation Leader</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-*{box-sizing:border-box;}
 body{
   margin:0;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto;
-  background:#0b0d11;
-  color:#fff;
-  overflow-x:hidden;
+  background:#000;
+  color:white;
+  font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto;
 }
 
-a{color:#4dd0ff;text-decoration:none;}
+:root{ --green:#32c800; }
 
-.section{
-  min-height:100vh;
-  padding:120px 8%;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-}
+section{ padding:100px 10%; }
+
+h1{ font-size:72px; margin:0 }
+h2{ font-size:42px; color:var(--green); }
+h3{ color:var(--green); font-size:28px }
+p{ font-size:20px; line-height:1.7; opacity:.9 }
 
 .hero{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:60px;
+  display:flex;
+  gap:80px;
   align-items:center;
+  min-height:100vh;
 }
 
-.hero img{
-  width:100%;
-  max-width:450px;
-  border-radius:30px;
-  box-shadow:0 0 80px rgba(77,208,255,0.4);
-}
-
-h1{
-  font-size:72px;
-  line-height:1;
-  margin:0;
-}
-
-h2{
-  font-size:40px;
-  color:#4dd0ff;
-}
-
-p{
-  font-size:20px;
-  line-height:1.7;
-  opacity:0.9;
-}
-
-.btn{
-  display:inline-block;
-  margin-top:20px;
-  padding:14px 32px;
-  border-radius:40px;
-  background:#4dd0ff;
-  color:#000;
-  font-weight:700;
-}
-
-.dark{
-  background:#0f1218;
-}
-
-.grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:30px;
+img{
+  width:320px;
+  height:320px;
+  border-radius:50%;
+  object-fit:cover;
+  border:6px solid var(--green);
+  box-shadow:0 0 60px rgba(50,200,0,.6);
 }
 
 .card{
-  background:#141823;
+  background:#0c0c0c;
   padding:40px;
   border-radius:20px;
+  margin-bottom:60px;
 }
 
-.skill{
-  background:#4dd0ff;
-  color:#000;
-  padding:12px 20px;
-  border-radius:30px;
-  display:inline-block;
-  margin:10px;
-  font-weight:700;
+.timeline{
+  border-left:4px solid var(--green);
+  padding-left:40px;
 }
 
 footer{
   padding:60px;
   text-align:center;
-  opacity:0.6;
+  opacity:.6;
 }
 </style>
 </head>
@@ -103,101 +61,114 @@ footer{
 <body>
 
 <!-- HERO -->
-<section class="section hero">
+<section class="hero">
   <div>
-    <h1>Ashish<br>Malviya</h1>
-    <h2>Software Engineer • IoT • AI • Automation</h2>
-    <p>
-      I design and build enterprise-grade platforms for smart workforce, 
-      logistics, visitor management, fleet tracking and secure access systems.
-    </p>
-
-    <a class="btn" href="https://www.linkedin.com/in/ashishkmalviya/" target="_blank">LinkedIn</a>
-    <a class="btn" href="https://starengts.com/" target="_blank">My Product</a>
+    <h1>Ashish Malviya</h1>
+    <h2>Lead – Digital Transformation, Industry 4.0, AI & ML</h2>
+    <p>18+ years driving smart manufacturing, IIoT, MES, data science and enterprise transformation.</p>
   </div>
-
-  <div>
-    <img src="https://raw.githubusercontent.com/justashish1/logo/main/Ashish_Image.jpeg">
-  </div>
+  <img src="https://raw.githubusercontent.com/justashish1/logo/main/Ashish_Image.jpeg">
 </section>
 
 <!-- ABOUT -->
-<section class="section dark">
-<h2>Who I Am</h2>
+<section>
+<h2>About</h2>
 <p>
-I am a professional software developer working on advanced enterprise platforms 
-that integrate IoT devices, AI, real-time data, dashboards and automation. 
-My work is used in real environments to control people flow, vehicle movement,
-security gates and workforce productivity.
+I am a strategic leader with 18+ years of experience driving Industry 4.0, data science,
+smart manufacturing, and digital transformation across global organizations.
+I have delivered 20%+ productivity improvements, built data-driven cultures, and led
+AI-powered innovation across multiple industries.
 </p>
 </section>
 
-<!-- PRODUCT -->
-<section class="section">
-<h2>StarGates Neura</h2>
-<p>
-I am the developer behind <strong>StarGates Neura</strong> – a powerful 
-AI-driven gateway and workforce intelligence platform used to manage 
-visitors, fleets, employees and access control in real time.
-</p>
+<!-- EXPERIENCE -->
+<section>
+<h2>Professional Experience</h2>
+<div class="timeline">
 
-<div class="grid">
-  <div class="card">Visitor Management System</div>
-  <div class="card">Fleet & Vehicle Tracking</div>
-  <div class="card">Workforce Intelligence</div>
-  <div class="card">Gate Automation</div>
-  <div class="card">Live Security Dashboard</div>
-  <div class="card">Cloud & API Integration</div>
+<div class="card">
+<h3>Henkel — Lead Digital Transformation, Industry 4.0, AI & ML (IMEA)</h3>
+<p>May 2023 – Present | Navi Mumbai</p>
+<p>
+Leading IIoT, MES, AI & ML programs across India, Middle East & Africa. Implemented
+real-time monitoring, predictive maintenance, advanced analytics, and connected factories.
+Driving digital strategy, cloud platforms, and executive decision intelligence.
+</p>
 </div>
 
-<p style="margin-top:40px">
-Live product: <a href="https://starengts.com/" target="_blank">https://starengts.com</a>
+<div class="card">
+<h3>Plasser India — Head of Digital Transformation & IT</h3>
+<p>Dec 2020 – May 2023</p>
+<p>
+Built Factory of the Future using MES, IIoT, Robotics, PLM, Cloud and Big Data.
+Led vendor selection, analytics, cybersecurity, KPIs, SLAs and Industry 4.0 roadmap.
 </p>
-</section>
-
-<!-- SKILLS -->
-<section class="section dark">
-<h2>Technology Stack</h2>
-
-<div>
-  <span class="skill">HTML</span>
-  <span class="skill">CSS</span>
-  <span class="skill">JavaScript</span>
-  <span class="skill">Python</span>
-  <span class="skill">Node.js</span>
-  <span class="skill">SQL</span>
-  <span class="skill">REST APIs</span>
-  <span class="skill">IoT</span>
-  <span class="skill">AI / ML</span>
-  <span class="skill">Cloud Systems</span>
-  <span class="skill">Security Systems</span>
 </div>
-</section>
 
-<!-- WORK -->
-<section class="section">
-<h2>What I Build</h2>
+<div class="card">
+<h3>Blue Star Limited — Manager NPD & Digital Manufacturing</h3>
+<p>Apr 2011 – Dec 2020</p>
 <p>
-✔ Enterprise dashboards<br>
-✔ Real-time tracking systems<br>
-✔ IoT-enabled access control<br>
-✔ AI-powered workforce analytics<br>
-✔ Secure cloud-based platforms<br>
-✔ Scalable APIs and integrations
+Designed PLM, MES, ERP integration, AR, BI dashboards, energy analytics,
+OEE improvement, robotics and AGVs across PAN-India plants.
 </p>
-</section>
+</div>
 
-<!-- CONTACT -->
-<section class="section dark">
-<h2>Let’s Work Together</h2>
+<div class="card">
+<h3>Deputy Manager — Manufacturing & Industry 4.0</h3>
+<p>Apr 2015 – Mar 2019</p>
 <p>
-Email: <a href="mailto:info@starengts.com">info@starengts.com</a><br>
-LinkedIn: <a href="https://www.linkedin.com/in/ashishkmalviya/">ashishkmalviya</a>
+Led NPD, PLM, analytics, and digital manufacturing systems.
 </p>
+</div>
+
+<div class="card">
+<h3>Assistant Manager — Process Engineering & R&D</h3>
+<p>Mar 2011 – Mar 2015</p>
+<p>
+Process optimization, Industry 4.0, MES, data analytics and manufacturing systems.
+</p>
+</div>
+
+<div class="card">
+<h3>Nikhil Autopress — Product & Business Development Manager</h3>
+<p>Jul 2009 – Feb 2011</p>
+<p>
+Managed new client acquisition, NPD lifecycle, manufacturing handover,
+and 15+ member delivery teams.
+</p>
+</div>
+
+<div class="card">
+<h3>United Gasket — Development Engineer</h3>
+<p>Jul 2008 – Jun 2009</p>
+<p>
+Delivered 20% productivity improvement through UNIDO program, TS16949 audits,
+automation and high-volume manufacturing.
+</p>
+</div>
+
+<div class="card">
+<h3>AAPSEE Controls — SPM Developer</h3>
+<p>Mar 2008 – Jun 2008</p>
+<p>
+Designed and delivered cylinder testing automation systems for engines.
+</p>
+</div>
+
+<div class="card">
+<h3>FinTech Foundry — Sheet Metal Tool Designer</h3>
+<p>May 2007 – Feb 2008</p>
+<p>
+Designed high-precision press tools, CAD models, and manufacturing drawings for clients.
+</p>
+</div>
+
+</div>
 </section>
 
 <footer>
-© 2026 Ashish Malviya — Built with GitHub Pages
+© 2026 Ashish Malviya – Digital Transformation, Industry 4.0 & AI Leadership
 </footer>
 
 </body>
